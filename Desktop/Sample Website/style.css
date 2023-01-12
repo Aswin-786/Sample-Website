@@ -36,6 +36,8 @@
 }
 .lin ul .log-in:hover {
   opacity: 1;
+  background-color: rgb(235, 235, 235);
+  color: black;
 } 
 .lin ul button {
   color: white;
@@ -44,9 +46,38 @@
   border: 1px rgb(27,0,251) solid;
   background: rgb(27,0,251);
   border-radius: 11px;
-  opacity: 0.8;
+  opacity: 0.7;
 }
 .lin ul button:hover {
   opacity: 1;
 }
+
+main aside div p {
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 5.1rem;
+}
+main aside div h4 {
+  color: rgb(96, 94, 94);
+  font-weight: 100;
+}
+main aside div button {
+  color: white;
+  padding: 17px 35px;
+  outline: none;
+  border: 1px rgb(27,0,251) solid;
+  background: rgb(27,0,251);
+  border-radius: 11px;
+  opacity: 0.7;
+}
+main aside div button:hover {
+  opacity: 1;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+main aside div img {
+  width: 80%;
+  height: auto;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
 
