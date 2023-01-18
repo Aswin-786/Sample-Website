@@ -153,8 +153,12 @@ main aside .secon-img img  {
   border-radius: 4px;
 }
 #myBtn:hover {
-  background-color: white;
-  color: blueviolet;
+  background-color: #555;
+  color: white;
+}
+footer div p:hover {
+  color: rgb(185, 185, 185);
+  cursor: pointer;
 }
 /* changing font size when screen size reduced to 700px and smaller */
 @media only screen and (max-width: 700px) {
