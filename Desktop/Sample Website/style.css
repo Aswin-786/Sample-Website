@@ -160,6 +160,19 @@ footer div p:hover {
   color: rgb(185, 185, 185);
   cursor: pointer;
 }
+
+.hidden {
+ opacity: 0;
+ filter: blur(5px);
+ transform: translateX(-100%);
+ transition: all 2s;
+}
+.show {
+  opacity: 1;
+  filter: blur(0);
+ transform: translateX(0);
+}
+
 /* changing font size when screen size reduced to 700px and smaller */
 @media only screen and (max-width: 700px) {
   /* first-row  */
